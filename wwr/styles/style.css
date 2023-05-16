@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Roboto+Slab&display=swap');
+
 content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,8 @@ content {
 nav a {
     text-align: center;
     color: black;
+    text-decoration: none;
+    padding: 35px;
     text-decoration: none;
 }
 #hero-msg h1 {
@@ -19,6 +23,7 @@ nav a {
 }
 main section {
     text-align: center;
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
@@ -26,6 +31,10 @@ main section {
 }
 body {
     background-color: #faedcd;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #d4a373;
@@ -38,11 +47,20 @@ nav a:hover {
     background-color: #fefae0;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+   
 }
 .join {
     background-color: #e9edc9;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: rgb(23, 93, 232);
@@ -54,22 +72,35 @@ nav a:hover {
 }
 .msg {
     background-color: #e9edc9;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #e9edc9;
     color: black;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 .home-title {
     color: black;
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
 }
 .msg h2 {
     color: black;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5em;
 }
 .msg p {
     color: black;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 footer a {
     color: black;
@@ -80,6 +111,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -89,4 +121,25 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids.card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid skyblue;
 }
