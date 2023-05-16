@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Roboto+Slab&display=swap');
 
-content {
+.content {
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
+    
 }
 nav a {
     text-align: center;
@@ -12,10 +12,7 @@ nav a {
     padding: 35px;
     text-decoration: none;
 }
-#hero-msg h1 {
-    text-align: center;
-}
-#hero-msg h4 {
+#hero-msg h1, #hero-msg h4  {
     text-align: center;
 }
 .botton-box {
@@ -43,9 +40,9 @@ nav a:hover {
     background-color: rgb(255, 255, 255);
     color: black;
 }
-.book {
+.book, .join {
     background-color: #fefae0;
-    color: black;
+    color: rgb(8, 8, 8);
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -53,21 +50,8 @@ nav a:hover {
     border-radius: 5px;
    
 }
-.join {
-    background-color: #fefae0;
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-.book:hover {
+.book:hover, .join:hover {
     background-color: rgb(23, 93, 232);
-    color: black;
-}
-.join:hover {
-    background-color: rgb(188, 177, 204);
     color: black;
 }
 .msg {
