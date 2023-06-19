@@ -189,6 +189,27 @@ h2 {
     grid-row: 2/3; 
 }
 
+/*FAQ PAGE*/
+.faq1 {
+    width: 200px;
+    
+}
+.faq2 {
+    width: 200px;
+    float: right;
+}
+.faq3 {
+    width: 200px;
+    float: right;
+}
+.faq4 {
+    width: 200px;
+    float: right;
+}
+.home {
+    text-align: center;
+
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
