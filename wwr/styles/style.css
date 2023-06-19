@@ -208,7 +208,17 @@ h2 {
 }
 .home {
     text-align: center;
+    
 
+}
+h3 {
+    background-color: #fefae0;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 900px) {
