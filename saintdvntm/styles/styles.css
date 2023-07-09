@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Goldman&display=swap');
 .content {
-    max-width: 1600px;
+    max-width: 700px;
     margin: 0 auto;
 }  
 
@@ -11,11 +11,22 @@ nav a {
     padding: 35px;
     text-decoration: none;
 }
-#hero-msg h1, #hero-msg h4  {
+#hero-msg h1 {
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: black;
-    align-items: center;
     
+}
+#hero-msg h4 {
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: black;
 }
 #hero {
     display: grid;
@@ -74,6 +85,12 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
    
 }
 .book:hover, .join:hover {
@@ -124,7 +141,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color: black;
+    color: white;
 }
 .icon {
     width: 80px;
@@ -350,4 +367,11 @@ h3{
   /* Add rounded corners to the top left and the top right corner of the image */
   img {
     border-radius: 5px 5px 0 0;
+  }
+  .mainclass {
+    display: grid; grid-template-columns: repeat(11, 1fr);
+    grid-column: 1/-1; justify-self: center; 
+  }
+  .h1-mainclass {
+    grid-column: 1/-1; justify-self: center;
   }
