@@ -214,14 +214,16 @@ h3{
 
 
 
-
+ /*second page*/
 * {
     box-sizing: border-box;
+    
   }
   
   body {
     background-color: #f1f1f1;
     padding: 20px;
+    display: grid;
     
   }
   
@@ -229,6 +231,7 @@ h3{
   .main {
     max-width: 1000px;
     margin: auto;
+    
   }
   
   h1 {
